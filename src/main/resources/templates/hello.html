@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  	<meta charset="UTF-8"></meta>
+  	<title>Appian v.1.0.1</title>
+
+<!-- Custom styles for this template -->
+    <link href="css/signin.css" rel="stylesheet">
+        <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+</head>
+
+
+
+<body class="text-center">
+
+   
+    <main class="form-signin">
+  <form>
+    <h1 th:text="${hello}"></h1>
+     
+   
+    <button type="button" onclick="window.location.href='http://appianhost1.localdev.dpsa:8080/suite/design';" class="w-100 btn btn-lg btn-primary">I am a Appian User</button>
+    <br>
+    <br>
+    <a href="/form" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">I am not a Appian User</a>
+    
+    <p class="mt-5 mb-3 text-muted">&copy; 2014–2021</p>
+  </form>
+</main>
+
+
+
+</body>
+
+
+
+
+
+
+</html>
